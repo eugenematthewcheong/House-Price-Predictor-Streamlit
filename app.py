@@ -34,7 +34,7 @@ def main():
     input_floor_area_sqft = left.slider('Enter preferred floor area (square feet)',  step=1.0, format='%.2f',min_value=0.0, max_value=5000.0, value= 900.0)
     input_mid = right.slider('Enter preferred floor in the block', step =1,format="%f",min_value=1, max_value=50, value=3)
     input_max_floor_lvl = left.number_input('Preferred maximum floor of the block', step=1.0, format='%.1f', value=20.0)
-    input_tenure = right.slider('Enter preferred tenure', step =1,format="%f",min_value=1, max_value=99, value=9)
+    input_tenure = right.slider('Enter preferred tenure', step =1,format="%f",min_value=1, max_value=99, value=19)
     input_transaction_year = left.slider('Input Transaction Year', step =1,format="%f",min_value=2012, max_value=2021, value=2021)
     input_mrt_nearest_distance = right.slider('Preferred distance to MRT (metres)',  step=1.0, format='%.2f',min_value=0.0, max_value=10000.0, value= 3000.0)
     input_mh = left.slider('Enter preferred distance to Mall (metres)', step=1.0, format='%.2f',min_value=1.0, max_value=4000.0, value= 100.0)
